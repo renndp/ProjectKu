@@ -1,0 +1,84 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(163, 185, 206);
+}
+
+.ulnavbar {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linavbar {
+    font-size: 30px;
+
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+#biodata {
+    background-color: rgb(168, 24, 24)(26, 16, 16);
+}
+
+.linavbar:hover {
+    background-color: yellow;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+}
+
+.alink {
+    color: white;
+    text-decoration: none;
+
+}
+
+.imgbody {
+    height: 70vh;
+    background-color: rgb(161, 156, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+
+}
+
+.hhh {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 21px 17px 49px 17px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: 21px 17px 49px 17px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 21px 17px 49px 17px rgba(0, 0, 0, 0.59);
+}
+
+.footer {
+    height: 15vh;
+    background-color: rgb(248, 149, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foter {
+    color: black;
+    font-size: 50px;
+}
